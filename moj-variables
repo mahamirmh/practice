@@ -1,0 +1,50 @@
+#variables
+
+price = 10 
+price = 20
+
+print(price)
+
+#int      = number 1,2,3,....
+#flout    = decimals 1.0 , 1.1 ,....
+#boolian  = True or false
+#str      = string : 'maha' , 'mori' , 'sari' , .....
+
+
+
+name = 'maha' #str
+is_publish = False #bool
+
+#---------------------------------
+
+#solution
+full_name = "artin saz"
+age = 25 
+sickness = 'kam aghli'
+is_new = True 
+
+#----------------------------------
+#input()
+name = input("what is your name? ")
+favorite_colore = input ("what is your fav colore? ")
+print(name+ " like " +favorite_colore)
+
+
+#----------------------------------
+
+birth_year = input("birth year : ")
+print(type(birth_year))
+age = 2022-int(birth_year)
+print(type(age))
+print(age)
+
+#----------------------------------
+
+weight_lbs = input("weight(lbs: )")
+weight_kg = int(weight_lbs) * 0.45 
+print(weight_kg)
+
+#----------------------------------
+
+cours = "python's for beginners"
+print(cours)
