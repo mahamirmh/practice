@@ -1,0 +1,46 @@
+
+course = "python's for beginners"
+another = course [:]
+print(course[:])
+
+#-----------------------------
+#solution
+#first ="mori"
+#last = "hjt"
+#message = first + '[' +last + '] is a doctor'
+
+ #----------------------------------------
+ 
+ 
+first="maha"
+last = "mht"
+message2 = first + '[' +last + '] is a engineer'
+msg =f'{first}[{last}] is a engineer'
+print (msg)
+ 
+ 
+#--------------------------
+course = "python for beginners"
+print(len(course))
+print(course.upper())
+print(course.lower())
+print(course.find('beginners'))
+print(course.replace('beginners', 'pro'))
+print(course.replace('b', 'B'))                                                          
+print('python' in course)
+print('Python' in course) 
+
+#------------------------------------------------
+print(10/3)
+print(10*3)
+print(10+3)
+print(10-3)
+print(10**2)
+
+#----------------------------------------------
+x=10
+x=x+3
+x+=3
+x-=3
+
+print(x)
